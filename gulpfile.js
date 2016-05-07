@@ -18,4 +18,8 @@ gulp.task('css', () => {
     .pipe(gulp.dest('dist/css'))
 })
 
-gulp.task('default', ['css'])
+gulp.task('watch', () => {
+  gulp.watch('src/css/**/*.css', ['css'])
+})
+
+gulp.task('default', ['css', 'watch'])

@@ -4,9 +4,8 @@
   "description": "Playing with CSS",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all browsersync gulp watch",
+    "start": "npm-run-all --parallel browsersync gulp",
     "gulp": "gulp",
-    "watch": "watch src/css/**/",
     "browsersync": "browser-sync start --server --files 'dist/css/main.css'"
   },
   "repository": {
