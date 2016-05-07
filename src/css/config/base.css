@@ -13,12 +13,14 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: #08c;
 }
 
 ul,
 ol {
   list-style: none;
   padding: 0;
+  color: white;
 }
 
 /* VERY COOL! */
@@ -32,5 +34,14 @@ ol {
 
 li {
   background: var(--accent-color);
-  color: white;
+}
+
+.box1 {
+  text-align: center;
+  max-width: 20em;
+  margin: 2em auto 0;
+  padding: 2em;
+  border: 10px solid hsla(0, 0%, 100%, 0.5);
+  background: white;
+  background-clip: padding-box;
 }
