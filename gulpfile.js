@@ -5,8 +5,6 @@ const nested = require('postcss-nested')
 const cssnext = require('postcss-cssnext')
 const atImport = require('postcss-import')
 const postcss = require('gulp-postcss')
-const plumber = require('gulp-plumber')
-const watch = require('gulp-watch')
 
 gulp.task('css', () => {
   var processors = [
@@ -15,8 +13,7 @@ gulp.task('css', () => {
     nested,
     mqpacker
   ]
-  return gulp.src('src/css/**/*.css')
-    .pipe(watch('src/css/**/*.css'))
+  return gulp.src('src/css/main.css')
     .pipe(postcss(processors, { syntax: scss }))
     .pipe(gulp.dest('dist/css'))
 })
