@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family: Avenir, sans-serif;
   box-sizing: border-box;
 }
 
@@ -12,4 +13,24 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* VERY COOL! */
+ul {
+  --accent-color: purple;
+}
+
+ol {
+  --accent-color: rebeccapurple;
+}
+
+li {
+  background: var(--accent-color);
+  color: white;
 }
