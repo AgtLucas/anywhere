@@ -1,5 +1,20 @@
 .button {
+  cursor: pointer;
+  font-size: 125%;
+  line-height: 1.5;
   padding: .3em .8em;
-  border: 1px solid #446D88;
-  background: #58A linear-gradient(#77A0BB, #58A);
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: .2em;
+  background: #58A linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+  box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+  color: white;
+  text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+
+  &--cancel {
+    background: #C00;
+  }
+
+  &--ok {
+    background: #6B0; 
+  }
 }
