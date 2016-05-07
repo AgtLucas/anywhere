@@ -4,6 +4,8 @@
   "description": "Playing with CSS",
   "main": "index.js",
   "scripts": {
+    "browsersync": "browser-sync start --server --files 'dist/css/main.css'",
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +22,11 @@
     "css-mqpacker": "^5.0.1",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
+    "npm-run-all": "^1.8.0",
     "postcss-cssnext": "^2.5.2",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
-    "postcss-scss": "^0.1.7"
+    "postcss-scss": "^0.1.7",
+    "watch": "^0.18.0"
   }
 }
