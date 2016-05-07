@@ -4,9 +4,10 @@
   "description": "Playing with CSS",
   "main": "index.js",
   "scripts": {
-    "browsersync": "browser-sync start --server --files 'dist/css/main.css'",
+    "start": "npm-run-all browsersync gulp watch",
     "gulp": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "watch src/css/**/",
+    "browsersync": "browser-sync start --server --files 'dist/css/main.css'"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/AgtLucas/anywhere#readme",
   "devDependencies": {
+    "browser-sync": "^2.12.5",
     "css-mqpacker": "^5.0.1",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
