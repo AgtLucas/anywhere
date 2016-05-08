@@ -62,6 +62,7 @@ li {
 .box3 {
   background: url(https://www.mozilla.org/media/img/firefox/developer/title.cc24bed4ace7.png) no-repeat bottom right #655;
   background-position: right 20px bottom 10px;
+  background-origin: content-box; /* NEAT! */
   max-width: 20em;
   min-height: 10em;
   margin: 2em auto 0;
