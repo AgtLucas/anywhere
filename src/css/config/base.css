@@ -51,7 +51,10 @@ li {
   height: 8em;
   margin: 2em auto 0;
   background: yellowgreen;
-  box-shadow: 0 0 0 10px #655,
+  /*box-shadow: 0 0 0 10px #655,
               0 0 0 15px #08C,
-              0 2px 5px 15px rgba(0, 0, 0, .6);
+              0 2px 5px 15px rgba(0, 0, 0, .6);*/
+
+  outline: 2px dashed #655;
+  outline-offset: -15px;
 }
