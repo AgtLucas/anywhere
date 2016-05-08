@@ -45,3 +45,13 @@ li {
   background: white;
   background-clip: padding-box;
 }
+
+.box2 {
+  max-width: 20em;
+  height: 8em;
+  margin: 2em auto 0;
+  background: yellowgreen;
+  box-shadow: 0 0 0 10px #655,
+              0 0 0 15px #08C,
+              0 2px 5px 15px rgba(0, 0, 0, .6);
+}
