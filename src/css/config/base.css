@@ -71,11 +71,12 @@ li {
 
 /* 36 */
 .rounded {
-  background: #655;
+  background: tan;
   padding: .8em;
-  > div {
-    background: tan;
-    border-radius: .8em;
-    padding: 1em;
-  }
+  width: 500px;
+  margin: 20px auto;
+  padding: 1em;
+  border-radius: .8em;
+  box-shadow: 0 0 0 .6em #655;
+  outline: .6em solid #655;
 }
