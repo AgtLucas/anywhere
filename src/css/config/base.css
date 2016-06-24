@@ -82,3 +82,9 @@ li {
 }
 
 /* 40*/
+.striped-background {
+  width: 500px;
+  height: 250px;
+  margin: 20px auto;
+  background: linear-gradient(#FB3, #58A);
+}
