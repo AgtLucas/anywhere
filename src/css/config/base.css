@@ -85,5 +85,6 @@ li {
   width: 500px;
   height: 250px;
   margin: 20px auto;
-  background: linear-gradient(#FB3 50%, #58A 50%);
+  background: linear-gradient(#FB3 33.3%, #58A 0, #58A 66.6%, yellowgreen 0);
+  background-size: 100% 45px;
 }
