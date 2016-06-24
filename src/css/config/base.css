@@ -105,3 +105,8 @@ li {
 .repeating {
   background: repeating-linear-gradient(60deg, #FB3, #FB3 15px, #58A 0, #58A 30px);
 }
+
+.subtle {
+  background: #58A;
+  background-image: repeating-linear-gradient(30deg, hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1) 15px, transparent 0, transparent 30px);
+}
