@@ -101,3 +101,7 @@ li {
   background: linear-gradient(45deg, #Fb3 25%, #58A 0, #58A 50%, #FB3 0, #FB3 75%, #58A 0);
   background-size: 30px 30px;
 }
+
+.repeating {
+  background: repeating-linear-gradient(60deg, #FB3, #FB3 15px, #58A 0, #58A 30px);
+}
