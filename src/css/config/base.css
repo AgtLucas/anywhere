@@ -136,3 +136,14 @@ li {
     transform: rotate(-45deg) scale(1.42);;
   }
 }
+
+.girl-and-boat {
+  display: block;
+  margin: 100px auto;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  transition: 1s clip-path;
+
+  &:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
