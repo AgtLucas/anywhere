@@ -19,15 +19,15 @@
   },
   "homepage": "https://github.com/AgtLucas/anywhere#readme",
   "devDependencies": {
-    "browser-sync": "^2.12.5",
+    "browser-sync": "^2.13.0",
     "css-mqpacker": "^5.0.1",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
-    "npm-run-all": "^1.8.0",
-    "postcss-cssnext": "^2.5.2",
+    "npm-run-all": "^2.3.0",
+    "postcss-cssnext": "^2.7.0",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
-    "postcss-scss": "^0.1.7",
-    "watch": "^0.18.0"
+    "postcss-scss": "^0.1.8",
+    "watch": "^0.19.1"
   }
 }
