@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/AgtLucas/anywhere#readme",
   "devDependencies": {
-    "browser-sync": "^2.13.0",
+    "browser-sync": "^2.14.0",
     "css-mqpacker": "^5.0.1",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
@@ -27,7 +27,7 @@
     "postcss-cssnext": "^2.7.0",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
-    "postcss-scss": "^0.1.8",
+    "postcss-scss": "^0.1.9",
     "watch": "^0.19.1"
   }
 }
